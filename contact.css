@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    
+    
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    display:inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left:110px;
+    transition: .3s;
+    gap: 30px;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+#contact {
+    padding: 50px ;
+}
+.container{
+    width: 100%;
+    background:  linear-gradient(to bottom right, #111, #1f2d3d);
+}
+
+.row{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+}
+.contact1{
+    flex-basis: 35%;
+    
+}
+.contact2{
+    flex-basis: 60%;
+}
+.contact1 p{
+    margin-top: 30px;
+}
+.contact2 textarea{
+    resize: none;
+}
+.contact1 p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.socialmedia{
+    margin-top: 30px;
+}
+.socialmedia  a{
+    text-decoration: none ;
+    font-size: 30px;
+    margin-right:15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform0.5s;
+}
+
+.socialmedia  a:hover{
+    color: blue;
+    transform: translateY(-5px);
+}
+
+.button{
+    display: inline-block;
+    background: #055c9d;
+}
+.contact1 form{
+    width: 100%;
+}
+form input,form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background:#262626;
+    padding:15px;
+    margin:15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius:6px;
+}
+form .button{
+    padding: 14px 60px;
+    font-size:18px ;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
